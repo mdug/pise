@@ -1,6 +1,6 @@
 
 ## General
-alias Sap="sudo service apache2 start"
+alias SS="sudo service "
 alias wl="vi ~/.lappy"
 alias op="gnome-open ."
 alias fk="gnome-terminal ."
@@ -9,9 +9,6 @@ alias wali="vi ~/.aliases"
 alias ns=notify-send
 alias cl="cat $1 |less"
 alias SI="sudo apt-get install "
-alias jspp="cd /home/mayur/mount/h/juspay"
-alias m1="ssh -i ~/Desktop/Juspay/server/trial.pem ubuntu@122.248.209.93"
-alias m2="ssh -i ~/Desktop/Juspay/server/trial.pem ubuntu@122.248.226.243"
 alias nt="clear && netstat -an | head -20"
 
 function cd() {
@@ -43,7 +40,6 @@ function wall() {
 	fi
 }
 
-export AWS_CLOUDWATCH_HOME=/home/mayur/Desktop/Juspay/server/cw/CloudWatch-1.0.13.4
 export PATH=$PATH:$AWS_CLOUDWATCH_HOME/bin
 export AWS_CREDENTIAL_FILE=$AWS_CLOUDWATCH_HOME/bin/cred
 source ~/.lappy
